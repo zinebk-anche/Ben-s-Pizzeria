@@ -1,7 +1,7 @@
 # Ben's Pizzeria 🍕🍕
 ![Pizzeria Logo](Images/Pizzeria logo.jpg)
 <div style="text-align: center;">
-  <img src="Images/Pizzeria logo.jpg" alt="Pizzeria Owner" width="150" />
+  <img src="Images/Pizzeria logo.jpg" alt="Pizzeria Owner" width="350" />
 </div>
 
 ## Meet Ben, the Owner
@@ -9,7 +9,7 @@
 ![Pizzeria Owner](Images/Ben the owner.webp)
 
 <div style="text-align: center;">
-  <img src="Images/Ben the owner.webp" alt="Pizzeria Owner" width="150" />
+  <img src="Images/Ben the owner.webp" alt="Pizzeria Owner" width="250" />
 </div>
 
 Ben is the proud owner of **Ben's Pizzeria**, a local favorite known for its delicious wood-fired pizzas and warm atmosphere. As part of his commitment to improving his business, Ben has asked us to analyze some key aspects of the pizzeria’s operations.
@@ -28,7 +28,7 @@ Ben has an extensive menu with pizzas, sides, and drinks that are loved by the c
 
 ![Pizzeria Menu](Images/The menu.png)
 <div style="text-align: center;">
-  <img src="Images/The menu.png" alt="Pizzeria Owner" width="150" />
+  <img src="Images/The menu.png" alt="Pizzeria Owner" width="550" />
 </div>
 The menu offers a wide variety of pizzas with different sizes, toppings, and prices. Our analysis will help Ben understand which items are performing well and which might need adjustments based on customer preferences.
 
