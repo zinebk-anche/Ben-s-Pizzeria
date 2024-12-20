@@ -11,7 +11,7 @@
   <img src="Images/Ben the owner.webp" alt="Pizzeria Owner" width="350" />
 </p>
 
-Ben is the proud owner of **Ben's Pizza**, a local favorite known for its delicious wood-fired pizzas and warm atmosphere. As part of his commitment to improving his business, Ben has asked us to analyze some key aspects of the pizzeria’s operations.
+Ben is the proud owner of **Ben's Pizza**, a local favorite known for its delicious wood-fired pizzas and warm atmosphere. As part of his commitment to improving his business, Ben has asked us to analyze some key aspects of the pizzeria’s operations during January 2023.
 
 ## Ben's Request
 
