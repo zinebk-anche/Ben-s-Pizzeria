@@ -1,7 +1,7 @@
 # Ben's Pizza 🍕🍕
-<p align="right">
-  <img src="Images/Pizzeria logo.jpg" alt="Pizzeria Owner" width="250" />
-</p>
+<div align="right">
+  <img src="Images/Pizzeria logo.jpg" alt="Pizzeria Logo" width="250" />
+</div>
 
 ## Meet Ben, the Owner
 
