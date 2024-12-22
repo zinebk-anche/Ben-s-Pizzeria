@@ -41,3 +41,7 @@ The main objectives of this project are:
 
 
 
+## Loading the data from the csv files to the database
+
+If you encounter "LOAD DATA INFILE ERROR: but as of v2.0 you must provide streamFactory option returning ReadStream." when trying to load your data to your database, [check out this post i made on loading CSV files into MySQL using node.js](https://medium.com/@zinebknch/a-comprehensive-guide-to-loading-csv-data-into-mysql-using-node-js-0379b74ee59d). 
+I hope it helps!
