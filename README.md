@@ -1,7 +1,7 @@
 # Ben's Pizza 🍕🍕
 
 <p align="left">
-  <img src="Images/Pizzeria logo.jpg" alt="Pizzeria Logo" width="250" height="250" style="border-radius: 50%; object-fit: cover;" />
+  <img src="Images/Pizzeria logo.png" alt="Pizzeria Logo" width="250" height="250" style="border-radius: 50%; object-fit: cover;" />
 </p>
 
 
