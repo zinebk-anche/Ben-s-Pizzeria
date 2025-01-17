@@ -1,15 +1,11 @@
 # Ben's Pizza 🍕🍕
 
-<p align="left">
-  <img src="Images/Pizzeria logo.png" alt="Pizzeria Logo" width="250" height="250" style="border-radius: 50%; object-fit: cover;" />
-</p>
-
-
 ## Meet Ben, the Owner
 
-<p align="center">
+<div style="display: flex; align-items: center; justify-content: space-between;">
   <img src="Images/Ben the owner.webp" alt="Pizzeria Owner" width="350" />
-</p>
+  <img src="Images/Pizzeria logo.png" alt="Pizzeria Logo" width="250" height="250" style="border-radius: 50%; object-fit: cover;" />
+</div>
 
 Ben is the proud owner of **Ben's Pizza**, a local favorite known for its delicious wood-fired pizzas and warm atmosphere. As part of his commitment to improving his business, Ben has asked us to analyze some key aspects of the pizzeria’s operations during January 2023.
 
@@ -31,13 +27,36 @@ Ben has an extensive menu with pizzas, sides, and drinks that are loved by the c
 
 The menu offers a wide variety of pizzas with different sizes, toppings, and prices. Our analysis will help Ben understand which items are performing well and which might need adjustments based on customer preferences.
 
-## Objectives
+## Orders Analysis
 
-The main objectives of this project are:
+- **Objectives**: Identify best-selling pizzas and top items on the menu.
 
-- **Sales Analysis**: Identify best-selling pizzas and top items on the menu.
-- **Inventory Optimization**: Forecast ingredient usage based on sales patterns.
-- **Staff Scheduling**: Analyze staff performance and optimize shifts based on peak hours.
+<p align="center">
+  <img src="Images/Orders_dashboard.png" alt="Orders Dashboard" width="500" />
+</p>
+
+-**Analysis**:
+
+## Inventory Analysis
+
+**Objectives**: Identify which ingredients should be purchased soon, and what pizzas cost the most to make based on ingredient prices.
+
+<p align="center">
+  <img src="Images/Inventory_dashboard.png" alt="Inventory Dashboard" width="500" />
+</p>
+
+-**Analysis**:
+ 
+## Staff Analysis
+
+**Scheduling**: Analyze staff cost and overall shift performance based on sales amounts.
+
+<p align="center">
+  <img src="Images/Images/Staff_dashboard.png" alt="Staff Dashboard" width="500" />
+  <img src="Images/Staffxsales_dashboard.png" alt="Staff X Sales Dashboard" width="500" />
+</p>
+
+-**Analysis**:
 
 
 
