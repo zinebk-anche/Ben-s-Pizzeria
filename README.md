@@ -52,7 +52,7 @@ The menu offers a wide variety of pizzas with different sizes, toppings, and pri
 **Scheduling**: Analyze staff cost and overall shift performance based on sales amounts.
 
 <p align="center">
-  <img src="Images/Images/Staff_dashboard.png" alt="Staff Dashboard" width="700" />
+  <img src="Images/Staff_dashboard.png" alt="Staff Dashboard" width="700" />
 </p>
 <p align="center">
   <img src="Images/Staffxsales_dashboard.png" alt="Staff X Sales Dashboard" width="700" />
