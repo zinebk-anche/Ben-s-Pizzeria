@@ -4,7 +4,7 @@
 
 <div style="display: flex; align-items: center; justify-content: space-between;">
   <img src="Images/Ben the owner.webp" alt="Pizzeria Owner" width="350" />
-  <img src="Images/Pizzeria logo.png" alt="Pizzeria Logo" width="250" height="250" style="border-radius: 50%; object-fit: cover;" />
+  <img src="Images/Pizzeria logo.png" alt="Pizzeria Logo" width="250" />
 </div>
 
 Ben is the proud owner of **Ben's Pizza**, a local favorite known for its delicious wood-fired pizzas and warm atmosphere. As part of his commitment to improving his business, Ben has asked us to analyze some key aspects of the pizzeria’s operations during January 2023.
@@ -32,7 +32,7 @@ The menu offers a wide variety of pizzas with different sizes, toppings, and pri
 - **Objectives**: Identify best-selling pizzas and top items on the menu.
 
 <p align="center">
-  <img src="Images/Orders_dashboard.png" alt="Orders Dashboard" width="500" />
+  <img src="Images/Orders_dashboard.png" alt="Orders Dashboard" width="700" />
 </p>
 
 -**Analysis**:
@@ -42,7 +42,7 @@ The menu offers a wide variety of pizzas with different sizes, toppings, and pri
 **Objectives**: Identify which ingredients should be purchased soon, and what pizzas cost the most to make based on ingredient prices.
 
 <p align="center">
-  <img src="Images/Inventory_dashboard.png" alt="Inventory Dashboard" width="500" />
+  <img src="Images/Inventory_dashboard.png" alt="Inventory Dashboard" width="700" />
 </p>
 
 -**Analysis**:
@@ -52,10 +52,12 @@ The menu offers a wide variety of pizzas with different sizes, toppings, and pri
 **Scheduling**: Analyze staff cost and overall shift performance based on sales amounts.
 
 <p align="center">
-  <img src="Images/Images/Staff_dashboard.png" alt="Staff Dashboard" width="500" />
-  <img src="Images/Staffxsales_dashboard.png" alt="Staff X Sales Dashboard" width="500" />
+  <img src="Images/Images/Staff_dashboard.png" alt="Staff Dashboard" width="700" />
 </p>
-
+<p align="center">
+  <img src="Images/Staffxsales_dashboard.png" alt="Staff X Sales Dashboard" width="700" />
+</p>
+  
 -**Analysis**:
 
 
