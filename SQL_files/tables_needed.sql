@@ -19,17 +19,8 @@ LEFT JOIN
     address a ON o.add_id = a.add_id;
 
 -- Dashboard 2 - Inventory Management
-CREATE VIEW stock1 AS
-SELECT 
-    s1.item_name,
-    s1.ing_id,
-    s1.ingredient_name,
-    s1.order_quantity,
-    s1.recipe_quantity,
-    s1.recipe_quantity * s1.order_quantity AS ordered_weight,
-    s1.ing_price / s1.ing_weight AS unit_cost,
-    (s1.recipe_quantity * s1.order_quantity) * (s1.ing_price / s1.ing_weight) AS ingredient_cost
-FROM (
+
+CREATE VIEW ingredient_usage_per_order AS
     SELECT 
         o.item_id AS ordered_item_id,
         i.sku,
@@ -53,26 +44,42 @@ FROM (
         re.quantity, 
         ig.ing_name,
         ig.ing_weight,
-        ig.ing_price
-) AS s1;
+        ig.ing_price;
 
+CREATE VIEW stock1 AS
 SELECT 
-    s2.ingredient_name,
-    s2.ordered_weight,
-    ing.ing_weight * inv.quantity AS total_inv_weight,
-    (ing.ing_weight * inv.quantity) - s2.ordered_weight AS remaining_weight
-FROM
-    (SELECT 
+    item_name,
+    ing_id,
+    ingredient_name,
+    order_quantity,
+    recipe_quantity,
+    recipe_quantity * order_quantity AS ordered_weight,
+    ing_price / ing_weight AS unit_cost,
+    (recipe_quantity * order_quantity) * (ing_price / ing_weight) AS ingredient_cost
+FROM ingredient_usage_per_order;
+
+CREATE VIEW ordered_weight_of_ing AS
+SELECT 
         ing_id,
         ingredient_name,
         SUM(ordered_weight) AS ordered_weight
     FROM
         stock1
-    GROUP BY ingredient_name, ing_id) s2
-LEFT JOIN inventory inv ON inv.item_id = s2.ing_id
-LEFT JOIN ingredient ing ON ing.ing_id = s2.ing_id;
+    GROUP BY ingredient_name, ing_id;
+
+CREATE VIEW stock2 AS
+SELECT 
+    ow.ingredient_name,
+    ow.ordered_weight,
+    ing.ing_weight * inv.quantity AS total_inv_weight,
+    (ing.ing_weight * inv.quantity) - ow.ordered_weight AS remaining_weight
+FROM
+    ordered_weight_of_ing ow
+LEFT JOIN inventory inv ON inv.item_id = ow.ing_id
+LEFT JOIN ingredient ing ON ing.ing_id = ow.ing_id;
 
 -- Dashboard 3 - Staff analysis
+CREATE VIEW staff_data AS
 SELECT
     r.date,
     r.time_of_day,
